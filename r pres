@@ -1,0 +1,49 @@
+Rstudio presenter 
+=======
+  title: "Motor Vehicle Road Tests" 
+author: Saran date: 'r format(Sys.Date(),format="%B %d %Y)' 
+output: Rstudio_presentation
+
+Description 
+======= 
+ -The data was extracted from the Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 22 automobiles (1973–74 models). 
+
+Format
+======== 
+     - A data frame with 25 observations on 7 variables.
+    > -[1] mpg Miles/(US) gallon
+
+    > -[2] cyl Number of cylinders
+
+    >-[, 3] drat Rear axle ratio
+
+    >-[,4] qsec 1/4 mile time
+
+    >-[, 5] vs V/S     
+
+    >-[,6] gear Number of forward gears
+
+    >-[,7] carb Number of carburetors
+
+   
+
+Source
+
+========= 
+        - Henderson and Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391–411. 
+
+  ========
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+Slide With Code
+=========================
+```{r}
+summary(mtvehicle)
+```
+
+=================
+<large>
+     THANK YOU
+</large>
